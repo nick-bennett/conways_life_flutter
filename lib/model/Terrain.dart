@@ -66,11 +66,6 @@ class Terrain {
     _next = temp;
     _population = nextPopulation;
     _iterationCount++;
-    print(population);
-  }
-
-  void copyCells(List<Uint8ClampedList> cells) {
-
   }
 
   int _countNeighbors(int rowIndex, int colIndex) {

@@ -1,4 +1,4 @@
-name: flutter_example_name
+name: conways_life_flutter
 description: Cool example app.
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev

@@ -1,4 +1,4 @@
-# flutter_example_name
+# conways_life_flutter
 
 A new Flutter project.
 

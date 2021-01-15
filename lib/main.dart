@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_example_name/viewmodel/MainViewModel.dart';
+
+import 'viewmodel/MainViewModel.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,11 +10,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Counter Demo',
+      title: 'Game of Life',
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: MyHomePage(title: 'Flutter Counter Demo'),
+      home: MyHomePage(title: 'Game of Life'),
       debugShowCheckedModeBanner: false,
     );
   }
